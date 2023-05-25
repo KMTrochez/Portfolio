@@ -1,11 +1,12 @@
 
 body{ 
     background-color: white;
+    
 }
 
 .contentDetails{
     display: inline-block;
-    padding: 40px;
+    padding:40px;
 }
 
 .header{
@@ -16,5 +17,13 @@ body{
 .footer{
     position: static;
     text-align: center;
-    height: 40px;
+    height:40px;
+}
+
+p{
+    font-size: 28px;
+}
+.footer p{
+    font-size: larger;
+    color: black;
 }
