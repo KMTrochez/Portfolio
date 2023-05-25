@@ -9,9 +9,11 @@ body{
 
 .header{
     position: static;
+    height: 100px;
 }
 
 .footer{
     position: static;
     text-align: center;
+    height: 40px;
 }
