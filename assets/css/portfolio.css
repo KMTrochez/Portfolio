@@ -6,3 +6,11 @@ body{
 .contentDetails{
     display:inline;
 }
+
+.header{
+    position: static;
+}
+
+.footer{
+    position: static;
+}
