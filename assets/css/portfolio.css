@@ -1,4 +1,12 @@
 
 body{ 
-    background-color: blue;
+    background-color: white;
+}
+
+.header{
+    position: fixed;
+}
+
+.footer{
+    position: fixed;
 }
