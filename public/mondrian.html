@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+    }
+    .container{
+      display: grid;
+      gap: 4px;
+      background-color: white;
+      width: 748px;
+      height: 748px;
+      grid-template-columns: repeat(19, 1fr);
+      grid-template-rows: repeat(19, 1fr);
+
+    }
+    .purple{
+      background-color: purple;
+    }
+    .red{
+      background-color: #e72f24;  
+    }
+    .black{
+      background-color: #232629;
+
+    }
+    .blue{
+      background-color: #004592;
+
+    }
+    .yellow{
+      background-color: #F9D01E;
+
+    }
+    .one{
+      grid-column-start: 1;
+      grid-column-end: 3;
+  
+    }
+    .two{
+      grid-column-start: 3;
+      grid-column-end: 7;
+    }
+    .three{
+      grid-column-start: 7;
+      grid-column-end: 11;
+    }
+    .four{
+      grid-area: 1/11/3/15;
+    }
+    .five{
+      grid-column-start: 15;
+      grid-column-end: 16;
+    }
+    .six{
+      grid-column-start: 16;
+      grid-column-end: 17;
+    }
+    .seven{
+      grid-column-start: 17;
+      grid-column-end: 20;
+    }
+    .eight{
+      grid-area: 2/1/4/2;
+    }
+    .nine{
+      grid-area: 2/2/7/7;
+    }
+    .ten{
+      grid-area: 2/7/4/11;
+    }
+    .eleven{
+      grid-area: 2/15/3/17;
+    }
+    .twelve{
+      grid-area: 2/17/4/19;
+    }
+    .thirteen{
+      grid-area: 2/19/5/20;
+    }
+    .fourteen{
+      grid-area: 4/1/8/2;
+    }
+    .fifthteen{
+      grid-area: 4/7/7/9;
+    }
+    .sixteen{
+      grid-area: 4/9/7/11;
+    }
+    .seventeen{
+      grid-area: 3/11/6/15;
+    }
+    .eighteen{
+      grid-area: 6/11/7/15;
+    }
+    .nineteen{
+      grid-area: 3/15/4/17;
+    }
+    .twenty{
+      grid-area: 4/15/6/17;
+    }
+    .twentyone{
+      grid-area: 6/15/7/17;
+    }
+    .twentytwo{
+      grid-area: 4/17/7/19
+    }
+    .twentythree{
+      grid-area: 5/19/9/20;
+    }
+    .twentyfour{
+      grid-area: 7/2/9/4;
+    }
+    .twentyfive{
+      grid-area: 8/1/11/2;
+    }
+    .twentysix{
+      grid-area: 9/2/11/4;
+    }
+    .twentyseven{
+      grid-area: 11/1/12/4;
+    }
+    .twentyeight{
+      grid-area: 7/4/8/7;
+    }
+    .twentynine{
+      grid-area: 8/4/9/7;
+    }
+    .thirty{
+      grid-area: 9/4/10/7;
+    }
+    .thirtyone{
+      grid-area: 11/1/12/4;
+
+    }
+    .thirtytwo{
+      grid-area:10/4/12/6;
+    }
+    .thirtythree{
+      grid-area:10/6/12/7;
+    }
+    .thirtyfour{
+      grid-area: 7/7/8/11;
+    }
+    .thirtyfive{
+      grid-area: 8/7/10/11;
+    }
+    .thirtysix{
+      grid-area: 10/7/12/11;
+    }
+    .thirtyseven{
+      grid-area:7/11/9/13;
+    }
+    .thirtyeight{
+      grid-area:7/13/9/15;
+    }
+    .thirtynine{
+      grid-area:9/11/11/15;
+    }
+    .fourty{
+      grid-area:11/11/12/13;
+    }
+    .fourtyone{
+      grid-area:11/13/12/15;
+    }
+    .fourtytwo{
+      grid-area: 7/15/11/19;
+    }
+    .fourtythree{
+      grid-area: 11/15/12/18
+    }
+    .fourtyfour{
+      grid-area: 11/18/12/20;
+    }
+    .fourtyfive{
+      grid-area: 9/19/11/20;
+    }
+
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+      <div class="one purple"></div>
+      <div class="two purple"></div>
+      <div class="three yellow"></div>
+      <div class="four blue"></div>
+      <div class="five yellow"></div>
+      <div class="six black"></div>
+      <div class="seven purple"></div>
+      <div class="eight purple"></div>
+      <div class="nine red"></div>
+      <div class="ten yellow"></div>
+      <div class="eleven yellow"></div>
+      <div class="twelve purple"></div>
+      <div class="thirteen yellow"></div>
+      <div class="fourteen purple"></div>
+      <div class="fifthteen purple"></div>
+      <div class="sixteen purple"></div>
+      <div class="seventeen red"></div>
+      <div class="eighteen purple"></div>
+      <div class="nineteen black"></div>
+      <div class="twenty purple"></div>
+      <div class="twentyone purple"></div>
+      <div class="twentytwo black"></div>
+      <div class="twentythree purple"></div>
+      <div class="twentyfour black"></div>
+      <div class="twentyfive yellow"></div>
+      <div class="twentysix purple"></div>
+      <div class="twentyeight purple"></div>
+      <div class="twentynine purple"></div>
+      <div class="thirty black"></div>
+      <div class="thirtyone purple"></div>
+      <div class="thirtytwo yellow"></div>
+      <div class="thirtythree purple"></div>
+      <div class="thirtyfour purple"></div>
+      <div class="thirtyfive blue"></div>
+      <div class="thirtysix red"></div>
+      <div class="thirtyseven purple"></div>
+      <div class="thirtyeight purple"></div>
+      <div class="thirtynine yellow"></div>
+      <div class="fourty purple"></div>
+      <div class="fourtyone black"></div>
+      <div class="fourtytwo blue"></div>
+      <div class="fourtythree purple"></div>
+      <div class="fourtyfour purple"></div>
+      <div class="fourtyfive purple"></div>
+  </div>
+</body>
+
+</html>
