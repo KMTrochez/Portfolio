@@ -1,33 +1,54 @@
 
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
 body{ 
     background-color: white;
-    
-}
-
-.content{
-    display: block;
 }
 
 .contentDetails{
-    display: inline-block;
-    padding:40px;
+
+    width: 30%;
 }
 
-.header{
-    position: static;
-    height: 100px;
+
+.headerIcons{
+    padding-bottom:0px;
+    margin-bottom: -10px;
 }
 
-.footer{
-    position: static;
-    text-align: center;
-    height:40px;
+.footerC{
+    width:100%;
 }
 
-p{
-    font-size: 28px;
+.footerContent{
+    justify-content: center;
 }
-.footer p{
-    font-size: larger;
-    color: black;
+
+
+.headerName{
+   font-weight: bold;
+   
+}
+
+#bootStrapIcon{
+    transform: rotate(-30deg);
+    padding-bottom: 50px;
 }
