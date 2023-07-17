@@ -1,22 +1,20 @@
-
-
 .gradient-background {
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+  background: linear-gradient(300deg, #0e0805, #56752d, #e7ef72);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
   }
-  
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  50% {
+    background-position: 100% 50%;
   }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 /* Reset some default styles */
 * {
@@ -28,9 +26,12 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f7f7f7;
 }
 
+main{
+  background-color: #222;
+  color:lime;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -126,3 +127,24 @@ body {
   }
 }
 
+.contentDetails {
+  width: 30%;
+}
+
+
+.footerC {
+  width: 100%;
+}
+
+.footerContent {
+  justify-content: center;
+}
+
+.headerName {
+  font-weight: bold;
+}
+
+#bootStrapIcon {
+  transform: rotate(-30deg);
+  padding-bottom: 50px;
+}
