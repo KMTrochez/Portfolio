@@ -62,7 +62,6 @@ main{
 /* Navbar Styles */
 .navbar {
   background-color: #336699;
-  color: #fff;
 }
 
 .nav-link {
@@ -71,7 +70,6 @@ main{
 }
 
 .nav-link:hover {
-  background-color: #fff;
   color: #336699;
 }
 
@@ -101,12 +99,19 @@ main{
   width: 100;
   height: 30;
 }
+
+a {
+  text-decoration: none !important;
+}
+
 .profile-pic{
   border-radius: 50%;
 }
 
-a {
-  text-decoration: none !important;
+.svg{
+  border-radius:50%;
+  height:24;
+  width:24;
 }
 
 /* Optional: Add custom styles for visited and hover states */
@@ -116,8 +121,6 @@ a:hover {
 }
 
 /* Footer Styles */
-
-
 
 .footerContent span {
   font-size: 1rem;
