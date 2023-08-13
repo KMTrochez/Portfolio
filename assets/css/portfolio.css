@@ -17,7 +17,7 @@
 }
 
 .flashing-image {
-  animation: flashing 1.5s infinite;
+  animation: flashing 3s infinite;
 }
 
 @keyframes flashing {
