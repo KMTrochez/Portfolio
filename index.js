@@ -19,7 +19,7 @@ const strings = [
     setInterval(() => {
       changingText.textContent = strings[index];
       index = (index + 1) % strings.length;
-    }, 1500); // Change the text every 1.5 seconds (adjust as needed)
+    }, 2000); // Change the text every 2 seconds (adjust as needed)
   }
   
   // Call the function to start changing the text
